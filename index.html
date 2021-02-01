@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="Scripts/jquery.mask.min.js"></script>
+        <script src="Scripts/jquery-validation-1.19.3/jquery.validate.min.js"></script>
+        <script src="Scripts/jquery-validation-1.19.3/localization/messages_pt_BR.min.js"></script>
+
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <div class="card card-4">
+            <form id="formRegister" name="form_user">
+                <div class="form-group">
+                    <label>Nome Completo</label>
+                    <input type="text" name="first_name" class="form-control" id="InputName" value="" placeholder="Insira seu nome completo">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md form-group">
+                        <label>Data de Nascimento</label>
+                        <input type="date" class="form-control" id="InputDateOfBirth">
+                    </div>
+                    <div class="col-sm-12 col-md form-group">
+                        <label>CPF</label>
+                        <input type="text" name="cpf" class="form-control" id="InputCPF" data-mask="00/00/0000" data-mask-selectonfocus="true" maxlength="14" placeholder="000.000.000-00">
+                    </div>
+                    <div class="col-sm-12 col-md form-group">
+                        <label>Celular</label>
+                        <input type="text" name="phone" class="form-control" id="InputCellPhone" placeholder="(00) 90000-0000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm form-group">
+                        <label>Endereço de email</label>
+                        <input type="email" name="email" class="form-control" id="InputEmail" placeholder="email@email.com">
+                    </div>
+                    <div class="col-sm form-group">
+                        <label>CEP</label>
+                        <input type="text" name="cep" class="form-control" id="InputCEP" maxlength="9" placeholder="00000-000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm form-group">
+                        <label>Logradouro</label>
+                        <input type="text" class="form-control" id="InputAddress">
+                    </div>
+                    <div class="col-sm form-group">
+                        <label>Número</label>
+                        <input type="number" class="form-control" id="InputNumber" placeholder="0000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm form-group">
+                        <label>Complemento</label>
+                        <input type="text" class="form-control" id="InputComplement">
+                    </div>
+                    <div class="col-sm form-group">
+                        <label>Bairro</label>
+                        <input type="text" class="form-control" id="InputNeighborhood">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm form-group">
+                        <label>Cidade</label>
+                        <input type="text" class="form-control" id="InputCity">
+                    </div>
+                    <div class="col-sm-4 col-md-2 form-group">
+                        <label>UF</label>
+                        <select class="form-control" id="InputUF">
+                          <option>AC</option>
+                          <option>AL</option>
+                          <option>AP</option>
+                          <option>AM</option>
+                          <option>BA</option>
+                          <option>CE</option>
+                          <option>ES</option>
+                          <option>GO</option>
+                          <option>MA</option>
+                          <option>MT</option>
+                          <option>MS</option>
+                          <option>MG</option>
+                          <option>PA</option>
+                          <option>PB</option>
+                          <option>PR</option>
+                          <option>PE</option>
+                          <option>PI</option>
+                          <option>RJ</option>
+                          <option>RN</option>
+                          <option>RS</option>
+                          <option>RO</option>
+                          <option>RR</option>
+                          <option>SC</option>
+                          <option>SP</option>
+                          <option>SE</option>
+                          <option>TO</option>
+                          <option>DF</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Descrição (Bio)</label>
+                    <textarea class="form-control" id="InputBio" rows="4"></textarea>
+                </div>
+                <div>
+                    <button id="ButtonEnviar" type="button" class="btn btn-primary btn-lg">Enviar</button>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="location.href='index.html'">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+        <script src="Scripts/script.js"></script>
+    </body>
+</html>
