@@ -10,7 +10,8 @@
 2. HTML5
 3. CSS
 4. Jquery
-5. API: Postmon
+5. Bootstrap 3
+7. API: Postmon
 
 ## Screens:
 > ![Screens 1](https://github.com/davibs22/Formulario-Teste/raw/main/readmeFiles/Screen1.png)
