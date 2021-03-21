@@ -10,7 +10,7 @@
 2. HTML5
 3. CSS
 4. Jquery
-5. Bootstrap 3
+5. Bootstrap 4
 7. API: Postmon
 
 ## Screens:
