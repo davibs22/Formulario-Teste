@@ -14,5 +14,5 @@
 7. API: Postmon
 
 ## Screens:
-> ![Screens 1](https://github.com/davibs22/Formulario-Teste/raw/main/readmeFiles/Screen1.png)
-> ![Screens 2](https://github.com/davibs22/Formulario-Teste/raw/main/readmeFiles/Screen2.png)
+![Screens 1](https://github.com/davibs22/Formulario-Teste/raw/main/readmeFiles/Screen1.png)
+![Screens 2](https://github.com/davibs22/Formulario-Teste/raw/main/readmeFiles/Screen2.png)
